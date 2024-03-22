@@ -209,47 +209,86 @@ header .right {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
 }
-.feature{
-    padding: 2rem;
-    border: 2px solid var(--color);
-    border-radius: 0.5rem;
+.feature {
+  padding: 2rem;
+  border: 2px solid var(--color);
+  border-radius: 0.5rem;
 }
-.feature__icon{
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: var(--color);
+.feature__icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--color);
 }
-.feature__title{
-    font-weight: 600;
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
+.feature__title {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
 }
-.feature__text{
-    font-size: 0.9rem;
+.feature__text {
+  font-size: 0.9rem;
 }
-.about__details{
-    gap: 2rem;
-    margin-top: 5rem;
+.about__details {
+  gap: 2rem;
+  margin-top: 5rem;
 }
-.about__details-content{
-    width: 50%;
+.about__details-content {
+  width: 50%;
 }
-.about__details-content h1{
-    font-size: 2rem;
-    font-weight: 700;
+.about__details-content h1 {
+  font-size: 2rem;
+  font-weight: 700;
 }
-.about__details-content p{
-    font-size: 0.9rem;
-    font-weight: 400;
+.about__details-content p {
+  font-size: 0.9rem;
+  font-weight: 400;
 }
-.about__details-content .btn{
-margin-top: 1rem;
+.about__details-content .btn {
+  margin-top: 1rem;
 }
-.about-details-img{
-    width: 50%;
+.about-details-img {
+  width: 50%;
 }
 /* SERVICES */
-
+#services .section-subheading,
+#services .section-heading {
+  text-align: right;
+}
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+.service {
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  cursor: pointer;
+}
+.service__icon img {
+  width: 50px;
+  margin-bottom: 1rem;
+}
+.service__title {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.service__text {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.arrow-icon {
+  color: var(--primary-color);
+  margin-left: auto;
+  transition: transform 0.3s;
+}
+.service:hover .arrow-icon {
+  transform: translateX(5px);
+}
 /* Projects */
 
 /* TEAM */
