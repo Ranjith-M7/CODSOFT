@@ -289,14 +289,13 @@ header .right {
 .service:hover .arrow-icon {
   transform: translateX(5px);
 }
-/* Projects */
-
-/* TEAM */
-
-/* TESTIMONIALS */
 
 /* CONTACT */
-
+.contact{
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
 /* FOOTER */
 
 /* MEDIA QUERIES */
