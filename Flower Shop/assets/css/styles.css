@@ -169,8 +169,9 @@ header.sticky {
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.header__logo img {
-  width: 100px;
+.header__logo {
+  width: 80px;
+  transition: all 0.3s ease-in-out;
 }
 .header__menu {
   gap: 1rem;
@@ -197,7 +198,7 @@ header .right {
   gap: 2rem;
 }
 .hero__content {
-  width: 50%;
+  width: 45%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -209,7 +210,7 @@ header .right {
   font-size: 3.3rem;
 }
 .hero__content span {
-  color: rgba;
+  color: var(--primary-color);
 }
 .hero__content p {
   font-size: 1.2rem;
@@ -217,7 +218,7 @@ header .right {
   margin-bottom: 2rem;
 }
 .hero__img {
-  width: 50%;
+  width: 55%;
 }
 
 /* ABOUT */
@@ -264,6 +265,45 @@ header .right {
 }
 .about-details-img {
   width: 50%;
+}
+/* BEST SELLERS */
+.flowers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+.flower {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  cursor: pointer;
+}
+.flower-image {
+  transition: transform 0.3s ease-in-out;
+}
+.flower-image img {
+  border-radius: 0.5rem;
+}
+.flower:hover .flower-image {
+  transform: scale(1.02);
+}
+.flower:hover .flower-past-price {
+  opacity: 0.6;
+}
+.flower .flower-current-price {
+  font-weight: 500;
+  color: red;
+}
+.flower .flower-past-price {
+  text-decoration: line-through;
+  font-weight: 300;
+  text-decoration-thickness: 1px;
+}
+.flower .delivery {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 1rem;
 }
 /* SERVICES */
 #services .section-subheading,
@@ -458,7 +498,7 @@ footer {
     padding: 0 1rem;
   }
   section {
-    padding-top: 2rem !important;
+    padding-top: 3rem !important;
     padding-bottom: 3rem !important;
   }
   .section-heading {
@@ -491,7 +531,7 @@ footer {
   /* HERO */
   #hero {
     gap: 1rem;
-    margin-top: 3rem;
+    margin-top: 4rem;
     flex-direction: column;
     justify-content: center;
   }
@@ -506,7 +546,7 @@ footer {
     margin: 0 auto;
   }
   .hero__img {
-    width: 100%;
+    width: 50%;
   }
   /* ABOUT */
   .feature {
@@ -535,5 +575,10 @@ footer {
   .footer__bottom {
     flex-direction: column;
     text-align: center;
+  }
+}
+@media screen and (max-width: 425px) {
+  .hero__img {
+    width: 70%;
   }
 }
