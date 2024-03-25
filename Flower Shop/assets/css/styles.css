@@ -482,6 +482,7 @@ footer {
   }
   /* HERO */
   #hero {
+    margin-top: 3rem;
     flex-direction: column;
     justify-content: center;
   }
@@ -502,19 +503,28 @@ footer {
   .feature {
     padding: 1rem;
   }
-  .about__details{
+  .about__details {
     flex-direction: column;
   }
-  .about__details-content, .about-details-img{
+  .about__details-content,
+  .about-details-img {
     width: 100%;
   }
 
   /* CONTACT */
-.contact{
-  flex-direction: column;
-}
-.contact__form, .contact__details{
-  width: 100%;
-}
+  .contact {
+    flex-direction: column;
+  }
+  .contact__form,
+  .contact__details {
+    width: 100%;
+  }
   /* FOOTER */
+  .footer__content{
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .footer__bottom{
+    flex-direction: column;
+    text-align: center;
+  }
 }
