@@ -72,4 +72,4 @@ sr.reveal(".about-details-img,  #contact .contact__details", {
   origin: "right",
 });
 
-sr.reveal("", { delay: 250, origin: "top" });
+sr.reveal("header", { delay: 250, origin: "top" });
