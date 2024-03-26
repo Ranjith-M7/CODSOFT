@@ -55,10 +55,13 @@ const sr = ScrollReveal({
   duration: 2000,
   reset: false,
 });
-sr.reveal(".hero__content, .hero__img, #about .features .feature", {
-  delay: 250,
-  origin: "bottom",
-});
+sr.reveal(
+  ".hero__content, .hero__img, #about .features .feature, .services .service, footer, .flowers .flower",
+  {
+    delay: 250,
+    origin: "bottom",
+  }
+);
 
 sr.reveal(".about__details-content, #contact .contact__form", {
   delay: 250,
@@ -69,4 +72,4 @@ sr.reveal(".about-details-img,  #contact .contact__details", {
   origin: "right",
 });
 
-sr.reveal(".services .service, footer, .flowers .flower", { delay: 250, origin: "top" });
+sr.reveal("", { delay: 250, origin: "top" });
