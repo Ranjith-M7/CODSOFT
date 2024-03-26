@@ -48,3 +48,25 @@ email.addEventListener("keyup", (e) => {
     email.style.border = "1px solid red";
   }
 });
+
+// website scrollReveal effect
+const sr = ScrollReveal({
+  distance: "85px",
+  duration: 2000,
+  reset: false,
+});
+sr.reveal(".hero__content, .hero__img, #about .features .feature", {
+  delay: 250,
+  origin: "bottom",
+});
+
+sr.reveal(".about__details-content, #contact .contact__form", {
+  delay: 250,
+  origin: "left",
+});
+sr.reveal(".about-details-img,  #contact .contact__details", {
+  delay: 250,
+  origin: "right",
+});
+
+sr.reveal(".services .service, footer, .flowers .flower", { delay: 250, origin: "top" });
