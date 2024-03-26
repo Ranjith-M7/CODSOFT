@@ -576,6 +576,9 @@ footer {
     flex-direction: column;
     text-align: center;
   }
+  .footer__bottom p{
+   margin-top: 0.1rem;
+  }
 }
 @media screen and (max-width: 425px) {
   .hero__img {
