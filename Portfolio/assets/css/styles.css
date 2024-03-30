@@ -289,6 +289,10 @@ header.sticky {
 /* contact style start */
 #portfolio {
   padding-top: 5rem;
+  background: url(/assets/img/project-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
 }
 .portfolio-title {
   letter-spacing: 4px;
@@ -301,15 +305,56 @@ header.sticky {
   font-weight: 800;
 }
 .projects {
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 2rem;
 }
 .project {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
-  padding: 2rem;
+  gap: 1rem;
+  border: 1px solid var(--gray-clr);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.project-img {
+  width: 100%;
+}
+.project-details {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  text-align: center;
+}
+.project-details .project-title {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-size: var(--font-size-normal);
+  color: var(--primary-color);
+}
+.project-desc {
+  max-width: 500px;
+  color: var(--text-gray-clr);
+  font-size: var(--font-size-small);
+  font-weight: 300;
+}
+.project-tech,
+.project-links {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 /* contact style end */
 
