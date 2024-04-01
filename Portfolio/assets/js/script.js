@@ -12,9 +12,9 @@ window.addEventListener("load", function () {
 });
 
 // Add event listerner to set the heaver sticky when scrolling
-window.addEventListener("scroll",()=>{
-  document.querySelector("header").classList.toggle("sticky",scrollY > 0);
-})
+window.addEventListener("scroll", () => {
+  document.querySelector("header").classList.toggle("sticky", scrollY > 0);
+});
 
 // Change hamburger menu icon depends on nav bar opens or not
 const hamburgerMenu = document.querySelector(".hamburger-menu");
@@ -38,7 +38,7 @@ navLinks.forEach((link) => {
   link.addEventListener("click", () => {
     document.querySelector(".menu-list").classList.toggle("show");
     isOpen = false;
-    if(!isOpen){
+    if (!isOpen) {
       hamburgerMenu.innerHTML = `<i class="fa fa-bars"></i>`;
     }
   });
