@@ -201,7 +201,7 @@ header.sticky {
 #about {
   padding-top: 2rem;
 }
-.bg-clr-red{
+.bg-clr-red {
   background-color: var(--primary-color);
 }
 #about .container {
@@ -580,7 +580,7 @@ footer p {
     border-bottom: 3px solid var(--primary-color);
   }
   .personal-info > div:hover {
-    border-bottom: 3px solid #ffe800;;
+    border-bottom: 3px solid #ffe800;
   }
 }
 @media screen and (min-width: 768px) {
@@ -598,9 +598,12 @@ footer p {
     width: 100px;
     border: none;
   }
-  .hero .profile-img {
-    width: 70%;
+  /* .hero .profile-img {
+    width: 50%;
   }
+  .hero .content {
+    width: 70%;
+  } */
   /* PORTFOLIO STYLE */
   .project {
     flex-direction: row;
