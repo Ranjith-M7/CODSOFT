@@ -16,4 +16,4 @@ This project is a portfolio, built using HTML, CSS, and JavaScript.
 
 **Description**: 
 
-**Website Link**: [Click here](https://ranjith-m7.github.io/CODSOFT/Flower%20Shop/) to visit the Page.
+**Website Link**: [Click here](https://ranjith-m7.github.io/CODSOFT/Flower%20Shop/)
