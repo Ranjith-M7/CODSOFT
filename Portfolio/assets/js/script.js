@@ -1,15 +1,3 @@
-// Wait for the window to load
-window.addEventListener("load", function () {
-  // Get the preloader element
-  const preloader = document.getElementById("preloader");
-  preloader.style.opacity = "0";
-  // After fading out, remove it from the DOM
-  setTimeout(function () {
-    // Fade out the preloader
-
-    preloader.parentNode.removeChild(preloader);
-  }, 500);
-});
 
 // Add event listerner to set the heaver sticky when scrolling
 window.addEventListener("scroll", () => {
