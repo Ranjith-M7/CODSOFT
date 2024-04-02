@@ -2,7 +2,7 @@
 window.addEventListener("load", function () {
   // Get the preloader element
   const preloader = document.getElementById("preloader");
-  preloader.style.opacity = "1";
+  preloader.style.opacity = "0";
   // After fading out, remove it from the DOM
   setTimeout(function () {
     // Fade out the preloader
