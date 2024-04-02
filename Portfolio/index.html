@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+  <title>Portfolio</title>
   <!-- Adding custom css -->
   <link rel="stylesheet" href="assets/css/styles.css" />
 
@@ -13,7 +13,6 @@
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="shortcut icon" href="" type="image/x-icon">
-  <title>Portfolio</title>
 </head>
 
 <body id="top">
@@ -36,6 +35,7 @@
             <a href="#contact"><i class="fa fa-fw fa-envelope"></i><span>Contact</span></a>
           </div>
         </nav>
+        <a href="#contact"><button class="btn btn-primary">HIRE ME!</button></a>
       </div>
     </div>
   </header>
@@ -47,12 +47,18 @@
       <div class="hero">
         <div class="content flex-center">
           <h1 class="name">R<span style="color: #e04343;">a</span>n<span style="color: #ffe800;">j</span>it<span
-              style="color: #e04343;">h</span><br><span style="color: #747474;">M</span></h1>
+              style="color: #e04343;">h</span> <span style="color: #747474;">M</span></h1>
           <p class="job">Web Developer, Photographer, Gamer</p>
           <div class="user-profile">
-            <span class="github"><a href="">Code <i class="fa-brands fa-github"></i></a></span>
-            <span class="linkedin"><a href="">LinkedIn <i
-                  class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
+            <span class="github"><a href="https://github.com/Ranjith-M7">GitHub&nbsp;&nbsp;<i
+                  class="fa-brands fa-github"></i></a></span>
+            <span class="linkedin"><a href="https://www.linkedin.com/in/ranjith-mathiyazhagan/">LinkedIn&nbsp;&nbsp;<i
+                  class="fa-brands fa-linkedin"></i></a></span>
+          </div>
+          <div class="buttons">
+            <a href="#contact"><button class="btn btn-secondary">HIRE ME</button></a>
+            <a href="https://drive.google.com/file/d/1cQ7kSPrkJ93KFbF__mdKpHWSlqp13DLl/view?usp=drive_link"><button
+                class="btn btn-primary">RESUME</button></a>
           </div>
         </div>
         <div class="profile-img">
@@ -60,12 +66,14 @@
         </div>
       </div>
     </div>
+    <div class="scroll-arrow">
+      <a href="#about"> <i class="fa-solid fa-chevron-down fa-bounce"></i></a>
+    </div>
   </section>
   <!-- HERO SECTION END -->
-
   <!-- ABOUT SECTION START -->
   <section id="about">
-    <div class="bg-clr-red">
+    <div class="about-bg-clr">
       <div class="container">
         <div class="about flex-center">
           <h3 class="about-title">
@@ -76,10 +84,13 @@
             <span class="down-arrow"><i class="fa-solid fa-chevron-down"></i></span>
             <span class="dot">. . . . . . . .</span>
           </div>
-          <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facilis laborum quae
-            excepturi necessitatibus quas aperiam nostrum earum quibusdam commodi, veniam distinctio repellendus
-            doloremque tempore sunt dolorum veritatis pariatur. Ipsam nihil autem laborum molestias dolore maiores
-            voluptas ipsum vero iusto.</p>
+          <p class="about-text">Passionate web developer with a Master's in Computer Science from Sir Issac Newton Arts
+            & Science College. Experienced in Java programming and HTML/CSS design through a remote internship at
+            NULogic. Self-taught in front-end technologies including HTML, CSS, and JavaScript, with proficiency in
+            GitHub version control. Skilled in problem-solving and experienced in teamwork. Enthusiastic gamer and
+            dedicated volunteer at the local animal shelter. Eager to discuss technology, web development, and gaming.
+            Open to internship or entry-level roles.<br><br><span>KEY SKILLS:</span>&nbsp;&nbsp;&nbsp;HTML, CSS,
+            JavaScript, Java, Git & GitHub</p>
         </div>
       </div>
     </div>
@@ -96,7 +107,7 @@
         <span class="dot">. . . . . . . .</span>
       </div>
       <div class="services flex-center">
-        <div class="service --isPopular: true">
+        <div class="service">
           <div class="icon"><i class="fa-solid fa-desktop"></i></div>
           <h2 class="service-title">Web developer</h2>
           <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum commodi alias enim
@@ -125,63 +136,72 @@
       <h3 class="portfolio-title">Portfolio</h3>
       <h2 class="portfolio-heading">Each project is a piece of development</h2>
       <div class="projects">
-        <div class="project">
+        <div class="project project-one">
           <div class="project-img">
-            <img src="./assets/img/clients.png" alt="project-img">
+            <img src="./assets/img/marvelmart.png" alt="project-img">
           </div>
           <div class="project-details">
             <h2 class="project-title">Marvel Mart</h2>
-            <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, corrupti?
-              Adipisci, id? Veritatis totam beatae voluptates! Eveniet incidunt illo, laborum in natus maiores ad cum
-              explicabo qui? Excepturi, dolores odit!</p>
+            <p class="project-desc">
+              I created MarvelMart, an e-commerce site offering a wide range of footwear for men and women. Utilizing
+              HTML, CSS, and JavaScript, I crafted a visually appealing interface for a seamless shopping experience.
+              The site is responsive, ensuring accessibility across all devices.</p>
             <div class="project-tech">
               <span>React</span>
               <span>Node JS</span>
             </div>
             <div class="project-links">
-              <span class="github"><a href="">Code <i class="fa-brands fa-github"></i></a></span>
-              <span class="live-link"><a href="">Live Demo <i
+              <span class="github"><a href="https://github.com/Ranjith-M7/MarvelMart-Ecommerce">Code &nbsp;<i
+                    class="fa-brands fa-github"></i></a></span>
+              <span class="live-link"><a href="https://ranjith-m7.github.io/MarvelMart-Ecommerce/">Live Demo &nbsp;<i
                     class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
             </div>
           </div>
         </div>
-        <div class="project">
+        <div class="project project-two">
           <div class="project-details">
             <h2 class="project-title">Flower Shop</h2>
-            <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, corrupti?
-              Adipisci, id? Veritatis totam beatae voluptates! Eveniet incidunt illo, laborum in natus maiores ad cum
-              explicabo qui? Excepturi, dolores odit!</p>
+            <p class="project-desc">I crafted a visually captivating flower shop landing website to showcase a diverse
+              range of floral arrangements tailored for various occasions and events. Specializing in offering floral
+              solutions for functions, events, and celebrations, the website ensures optimal viewing across all devices,
+              boasting a 99% responsive design.</p>
             <div class="project-tech">
               <span>HTML</span>
               <span>CSS</span>
               <span>JS</span>
             </div>
             <div class="project-links">
-              <span class="github"><a href="">Code <i class="fa-brands fa-github"></i></a></span>
-              <span class="live-link"><a href="">Live Demo <i
+              <span class="github"><a href="https://github.com/Ranjith-M7/CODSOFT/tree/main/Flower%20Shop">Code &nbsp;<i
+                    class="fa-brands fa-github"></i></a></span>
+              <span class="live-link"><a href="https://ranjith-m7.github.io/CODSOFT/Flower%20Shop/">Live Demo &nbsp;<i
                     class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
             </div>
           </div>
           <div class="project-img">
-            <img src="./assets/img/clients.png" alt="project-img">
+            <img src="./assets/img/flower-shop.png" alt="project-img">
           </div>
         </div>
-        <div class="project">
+        <div class="project project-three">
           <div class="project-img">
-            <img src="./assets/img/clients.png" alt="project-img">
+            <img src="./assets/img/weather-app.png" alt="project-img">
           </div>
           <div class="project-details">
-            <h2 class="project-title">Marvel Mart</h2>
-            <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, corrupti?
-              Adipisci, id? Veritatis totam beatae voluptates! Eveniet incidunt illo, laborum in natus maiores ad cum
-              explicabo qui? Excepturi, dolores odit!</p>
+            <h2 class="project-title">Weather APP</h2>
+            <p class="project-desc">
+              I created a Weather API with JavaScript and Weather API, offering real-time weather updates for over
+              200,000 cities globally. Users can instantly access current weather conditions for their chosen city,
+              complete with clear icons for easy visualization and essential details like humidity, wind speed, and
+              cloud cover.</p>
             <div class="project-tech">
-              <span>React</span>
-              <span>Node JS</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JS</span>
+              <span>API</span>
             </div>
             <div class="project-links">
-              <span class="github"><a href="">Code <i class="fa-brands fa-github"></i></a></span>
-              <span class="live-link"><a href="">Live Demo <i
+              <span class="github"><a href="https://github.com/Ranjith-M7/Weather-App">Code &nbsp;<i
+                    class="fa-brands fa-github"></i></a></span>
+              <span class="live-link"><a href="https://zilla-weather-app.netlify.app/">Live Demo &nbsp;<i
                     class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
             </div>
           </div>
@@ -194,7 +214,7 @@
   <!-- BLOG SECTION START -->
   <section id="blog">
     <div class="container">
-      <h3 class="blog-heading">My <span style="color: rgb(251, 58, 58);">Little </span>Blog</h3>
+      <h3 class="blog-heading">My <span>Little </span>Blog</h3>
       <div class="dot-line flex-center">
         <span class="dot">. . . . . . . .</span>
         <span class="down-arrow"><i class="fa-solid fa-chevron-down"></i></span>
@@ -237,7 +257,7 @@
       <h2 class="contact-heading">Don't be shy! Hit me up!</h2>
 
       <div class="contact-box-title flex-center">
-        <h3 class="contact-subheading">Drop <span style="color: rgb(251, 58, 58);">me </span>a line</h3>
+        <h3 class="contact-subheading">Drop <span>me </span>a line</h3>
         <div class="dot-line flex-center">
           <span class="dot">. . . . . . . .</span>
           <span class="down-arrow"><i class="fa-solid fa-chevron-down"></i></span>
@@ -250,7 +270,7 @@
           <div class="contact-address">
             <div class="address-icon"><i class="fa-solid fa-location-dot"></i></div>
             <h3>Address</h3>
-            <p class="address">5/12, bruce wayne, Tamil Nadu</p>
+            <p class="address">5/12, Alaska, Tamil Nadu, India, Earth</p>
           </div>
           <div class="contact-phone">
             <div class="phone-icon"><i class="fa-solid fa-phone"></i></div>
@@ -260,18 +280,19 @@
           <div class="contact-email">
             <div class="email-icon"><i class="fa-solid fa-envelope"></i></div>
             <h3>email</h3>
-            <p class="email"><a href="">brucewayne@enterprise.com</a></p>
+            <p class="email"><a href="">ranjith.mathiyazhagan@gmail.com</a></p>
           </div>
         </div>
         <div class="row-2">
-          <div class="google-map"><img src="/assets/img/blog3.jpg" alt=""></div>
+          <!-- The div element for the map-->
+          <div id="map"><img src="/assets/img/map-img.png" alt="map-img"></div>
           <form action="">
             <div class="input-data">
               <input type="text" placeholder="Your name" required>
               <input type="email" placeholder="Email address" required>
             </div>
             <textarea rows="10" placeholder="Write your messages here..." required></textarea>
-            <button type="submit" class="btn">Send message</button>
+            <button type="submit" class="btn btn-secondary">Send message</button>
           </form>
         </div>
         <div class="social-icons">
@@ -297,6 +318,8 @@
 
   <!-- Adding custom script file -->
   <script src="assets/js/script.js"></script>
+
+
 
 </body>
 
