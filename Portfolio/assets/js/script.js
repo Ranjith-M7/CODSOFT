@@ -2,7 +2,7 @@
 window.addEventListener("load", function () {
   // Get the preloader element
   const preloader = document.getElementById("preloader");
-  preloader.style.opacity = "0";
+  preloader.style.opacity = "1";
   // After fading out, remove it from the DOM
   setTimeout(function () {
     // Fade out the preloader
@@ -72,3 +72,25 @@ function runAnimation() {
   animateWords();
 }
 runAnimation();
+
+// website scrollReveal effect
+const sr = ScrollReveal({
+  distance: "85px",
+  duration: 2000,
+  reset: false,
+});
+
+sr.reveal("header", { delay: 250, origin: "top" });
+sr.reveal(
+  ".hero .content, .hero .profile-img, .projects .project-one, .projects .project-three",
+  { delay: 250, origin: "left" }
+);
+
+sr.reveal(".hero .profile-img, .projects .project-two", {
+  delay: 250,
+  origin: "right",
+});
+sr.reveal(
+  ".about, .services .service, .blogs .blog, .contacts .personal-info, .contacts .row-2",
+  { delay: 250, origin: "bottom" }
+);
