@@ -13,8 +13,8 @@
 
 ## Demo
 
-Check out the demo video for a walkthrough of the project.
-[Watch the Demo Video](https://github.com/Ranjith-M7/CODSOFT/assets/126071064/8ebe479c-65fc-42cd-ae89-cf7a5c3f6ac0)
+[Click here](https://github.com/Ranjith-M7/CODSOFT/assets/126071064/8ebe479c-65fc-42cd-ae89-cf7a5c3f6ac0) to check out the demo video for a walkthrough of the project.
+
 
 ## Website Link
 [Click here](https://ranjith-m7.github.io/CODSOFT/Flower%20Shop/) to visit the website .
