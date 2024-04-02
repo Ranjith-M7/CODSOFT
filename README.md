@@ -13,3 +13,9 @@ This repository contains the projects and tasks completed during my internship a
 **Description**: Seamlessly crafted portfolio website showcasing diverse projects and services with intuitive navigation and interactive elements.
 
 **Website Link**: [Click here](https://ranjith-m7.github.io/CODSOFT/Portfolio/)
+
+## Task 3: Calculator
+
+**Description**: 
+
+**Website Link**: [Click here]()
