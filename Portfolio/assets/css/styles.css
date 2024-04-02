@@ -170,7 +170,11 @@ header.sticky {
   margin-top: 5rem;
 }
 .hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   flex-direction: column;
+  gap: 2rem;
 }
 .hero .content {
   width: 100%;
@@ -192,8 +196,18 @@ header.sticky {
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
+.hero .user-profile {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
 .hero .profile-img {
-  width: 80%;
+  width: 60%;
+}
+.hero .profile-img img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  height: 100%;
+  border-radius: 10px;
 }
 /* hero style end */
 
@@ -562,16 +576,20 @@ footer p {
 @media screen and (min-width: 425px) {
   /* HEADER STYLE */
   .hero .profile-img {
-    width: 60%;
+    width: 50%;
   }
 }
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 500px) {
   /* HEADER STYLE */
   .hero .profile-img {
     width: 40%;
   }
 }
 @media screen and (min-width: 632px) {
+  /* HEADER STYLE */
+  .hero .profile-img {
+    width: 32%;
+  }
   /* PORTFOLIO STYLE */
   .personal-info {
     gap: 2rem;
@@ -598,12 +616,12 @@ footer p {
     width: 100px;
     border: none;
   }
-  /* .hero .profile-img {
-    width: 50%;
+  .hero .profile-img {
+    width: 40%;
   }
   .hero .content {
-    width: 70%;
-  } */
+    width: 60%;
+  }
   /* PORTFOLIO STYLE */
   .project {
     flex-direction: row;
