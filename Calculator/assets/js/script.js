@@ -4,6 +4,7 @@ const specialCharacter = ["+", "-", "*", "/", "%"];
 
 let output = "";
 
+// function to display the evaluvated value
 function calculate(btnValue) {
    if (btnValue === "=" && specialCharacter.includes(output.slice(-1))) {
     return;
@@ -23,6 +24,7 @@ function calculate(btnValue) {
   display.value = output;
 }
 
+// add event listeners to all the buttons
 buttons.forEach((btn) => {
   btn.addEventListener("click", (e) => {
     calculate(e.target.dataset.value);

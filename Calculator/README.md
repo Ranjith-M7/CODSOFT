@@ -1,25 +1,24 @@
 
 # Calculator
+A basic Calculator performs simple arithmetic operations.
 
 ## Description
-**Responsive Design:** The website is optimized for various devices, ensuring a seamless user experience across desktops, tablets, and mobile phones.
+The simple Calculator project involves creating a user-friendly digital tool for performing basic arithmetic operations such as addition, subtraction, multiplication, divison, and module, serving as a practical solution for everyday calculation.
 
 ## Tech Stack
 
 **Client:** HTML, CSS, JavaScript
 
 ## Demo
-
-Check out the demo video for a walkthrough of the project.  
-[Click here ](https://github.com/Ranjith-M7/CODSOFT/assets/126071064/a30e9c31-bc68-4588-b70a-0d3c4a7ae1d0)to Watch the video.
+[Click here ](https://github.com/Ranjith-M7/CODSOFT/assets/126071064/876dda8b-0337-4ce0-98e9-079e5193fa7d) to check out the demo video for a walkthrough of the project.
 
 ## Website Link
-[Click here](https://ranjith-m7.github.io/CODSOFT/Portfolio/) to visit the website .
+[Click here](https://ranjith-m7.github.io/CODSOFT/Calculator/) to visit the website.
 
 
 ## Screenshot
 
-![App Screenshot](https://github.com/Ranjith-M7/CODSOFT/assets/126071064/561c8a71-250b-4930-84c6-d56c0cd5679e)
+![App Screenshot](https://github.com/Ranjith-M7/CODSOFT/assets/126071064/dd5a579d-d0be-49b3-88b1-17e0dc771e67)
 
 ## Run Locally
 
@@ -32,7 +31,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd Portfolio
+  cd Calculator
 ```
 
 ## Author
