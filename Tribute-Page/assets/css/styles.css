@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* RESET DEFAULT STYLES */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.calculator {
+  width: 300px;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+input[type="text"] {
+  width: 100%;
+  height: 6rem;
+  padding: 0.8rem;
+  margin: 1rem 0 2rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1rem;
+  text-align: right;
+  pointer-events: none;
+  border: 1px solid rgb(216, 214, 214);
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+button {
+  border: none;
+  font-family: "PT Sans", sans-serif;
+  padding: 0.8rem;
+  border-radius: 7px;
+  background-color: #eee;
+  cursor: pointer;
+}
+button:is(:hover, :active) {
+  background-color: rgb(228, 228, 228);
+  transform: scale(0.96);
+}
+.row-5-col-3{
+  grid-column: 3/5;
+}
+.operator{
+  color: rgb(0, 183, 255);
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.boxes{
+  display: flex;
+  gap: 1px;
+  background-color: rgb(216, 214, 214);
+  border: 1px solid rgb(216, 214, 214);
+  padding: 2px;
+}
+.box{
+  width: 15px;
+  height: 15px;
+  background-color: rgb(92, 91, 91);
+}
+h4{
+color: rgb(94, 93, 93);
+}
