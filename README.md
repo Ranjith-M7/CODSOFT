@@ -2,8 +2,6 @@
 
 This repository contains the projects and tasks completed during my internship at CODSOFT.
 
-# Level 1:
-
 ## Task 1: Landing Page
 
 **Description**: The landing page showcases a wide range of flowers and specializes in all kinds of floral arrangements for various occasions.
