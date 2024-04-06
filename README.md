@@ -16,6 +16,6 @@ This repository contains the projects and tasks completed during my internship a
 
 ## Task 3: Calculator
 
-**Description**: 
+**Description**: A Basic Calculator performs simple arithmetic operations. 
 
-**Live Link**: [click here]()
+**Live Link**: [click here](https://ranjith-m7.github.io/CODSOFT/Calculator/)
