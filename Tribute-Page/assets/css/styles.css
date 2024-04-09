@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Overpass:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 @font-face {
   font-family: "transformers";
@@ -10,13 +11,14 @@
 :root {
   --primary-color: yellow;
   --secondary-color: #2e2e2e;
-  --bg-color: #fbfbfb;
-  --primary-font: "Poppins", sans-serif;
+  --gray-color: #b7b5b5;
+  --quotes-color: #d7a46d;
+  --primary-font: "Bebas Neue", sans-serif;
   --secondary-font: "Overpass", sans-serif;
   --main-font: "transformers", sans-serif;
-  --font-size-big: 2rem;
+  --font-size-big: 4rem;
   --font-size-normal: 1.2rem;
-  --font-size-small: 1rem;
+  --font-size-small: 1.1rem;
 }
 
 /* RESET DEFAULT STYLES */
@@ -26,6 +28,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
 }
 /* Utility styles */
 .container {
@@ -39,6 +44,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
 .btn {
   border: none;
   background: none;
@@ -72,6 +78,15 @@ body {
   padding: 1rem 0;
   background-color: var(--secondary-color);
   color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+}
+#header.sticky {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 #header .container {
   display: flex;
@@ -80,6 +95,7 @@ body {
 }
 #header .logo .logo-name {
   font-family: var(--main-font);
+  letter-spacing: 2px;
 }
 #header .menu .menu-list {
   list-style: none;
@@ -94,7 +110,14 @@ body {
 .menu-list li a:hover {
   color: var(--primary-color);
 }
-
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+}
+.hamburger-menu i {
+  color: #fff;
+  font-size: 2rem;
+}
 /* hero style */
 #hero {
   position: relative;
@@ -103,6 +126,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  margin-top: 4rem;
 }
 #hero::before {
   content: "";
@@ -124,59 +148,190 @@ body {
 }
 .hero-content .title {
   font-family: var(--main-font);
-  font-size: 4rem;
+  font-size: var(--font-size-big);
   color: var(--primary-color);
 }
 .hero-content .text {
   margin-top: 1rem;
   font-size: var(--font-size-small);
+  position: relative;
+}
+.hero-content .text::after {
+  position: absolute;
+  content: "";
+  bottom: -1rem;
+  left: 0;
+  width: 7%;
+  height: 3px;
+  background-color: var(--primary-color);
 }
 .hero-content .btn {
   margin-top: 3rem;
 }
-#hero .arrow{
+#hero .arrow {
   position: absolute;
   bottom: 2rem;
   left: 50%;
 }
-#hero .arrow i{
- font-size: 2rem;
+#hero .arrow i {
+  font-size: 2rem;
+  color: #fff;
 }
 
 /* about section style */
-#about{
-  padding: 5rem 5rem;
+#about {
+  padding: 5rem 2rem;
 }
-#about .container{
+#about .container {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  gap: 2rem;
+  gap: 1rem;
 }
-.left, .right{
-  padding: 0 2rem;
+.left,
+.right {
+  padding: 0 1rem;
 }
-.left span{
+.left span {
   color: blue;
+  cursor: pointer;
 }
-.left .left-content-text{
+.left .left-content-text {
   position: relative;
 }
-.left .left-content-text::after{
+.left .left-content-text::after,
+.left .biography::after {
+  position: absolute;
+  content: "";
+  bottom: -1rem;
+  left: 0;
+  width: 5%;
+  height: 3px;
+  background-color: var(--quotes-color);
+}
+.left .biography {
+  position: relative;
+  margin: 2rem 0;
+}
+.left .biography .bio-title {
+  font-size: var(--font-size-normal);
+  font-family: var(--primary-font);
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+.left .left-content-ref {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+/* aside style */
+.right .quotes {
+  min-width: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: var(--font-size-small);
+}
+.right .quotes .quote {
+  font-family: var(--primary-font);
+  word-spacing: 3px;
+  position: relative;
+}
+.right .quotes .quote::after {
   position: absolute;
   content: "";
   bottom: -1rem;
   left: 0;
   width: 10%;
   height: 3px;
-  background-color: var(--primary-color);
+  background-color: var(--quotes-color);
 }
-.left .left-content-ref{
-  margin-top: 1rem;
+.right .quote .quote-text {
+  color: var(--quotes-color);
 }
+.right .quote .quote-text-credit {
+  color: var(--gray-color);
+  margin-top: 0.5rem;
+}
+
 /* footer style start */
-footer{
+footer {
   padding: 1rem 0;
   background-color: var(--secondary-color);
   color: #fff;
 }
+footer .container .credits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.image-credit p,
+.quote-credit p {
+  color: var(--quotes-color);
+}
+.credits p {
+  font-size: 0.8rem;
+}
 /* footer style end */
+
+@media screen and (max-width: 768px) {
+  #header .menu .menu-list {
+    display: none;
+  }
+  #header .hamburger-menu {
+    display: block;
+    z-index: 501;
+  }
+  #header .menu .menu-list {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    max-width: 425px;
+    height: 100vh;
+    z-index: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    color: #fff;
+    gap: 5rem;
+    transition: all 0.3s;
+    transform: translateX(425px);
+  }
+  #header .menu .menu-list.show {
+    transform: translateX(0px);
+  }
+  #hero {
+    background-image: url(/assets/img/optimus-img-mobile.jpg);
+  }
+  #hero .container .hero-content {
+    position: absolute;
+    top: 15%;
+    z-index: 2;
+    max-width: 450px;
+    color: #fff;
+  }
+}
+@media screen and (max-width: 550px) {
+  /* VARIABLES */
+  :root {
+    --font-size-big: 3rem;
+    --font-size-normal: 1.1rem;
+    --font-size-small: 1rem;
+  }
+  #header .logo .logo-name {
+    font-size: var(--font-size-normal);
+  }
+  #hero .arrow i {
+    display: none;
+  }
+  #about .container {
+    grid-template-columns: 1fr;
+  }
+  footer .container .credits {
+    flex-direction: column;
+    text-align: center;
+  }
+}
