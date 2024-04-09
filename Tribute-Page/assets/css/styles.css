@@ -44,7 +44,7 @@ a {
 .btn {
   border: none;
   background: none;
-  font-family: var(--main-font);
+  font-family: var(--secondary-font);
   padding: 12px 20px;
   border-radius: 5px;
   letter-spacing: 1px;
@@ -118,7 +118,7 @@ body {
 /* hero style */
 #hero {
   position: relative;
-  background-image: url(/assets/img/optimus-img-desktop.jpg);
+  background-image: url("/assets/img/optimus-img-desktop.jpg");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -165,6 +165,8 @@ body {
 }
 .hero-content .btn {
   margin-top: 3rem;
+  text-transform: uppercase;
+  font-weight: bolder;
 }
 #hero .arrow {
   position: absolute;
