@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "transformers";
-  src: url("/assets/fonts/Transformers.ttf") format("truetype");
+  src: url("assets/fonts/Transformers.ttf") format("truetype");
 }
 
 /* VARIABLES */
@@ -121,7 +121,7 @@ body {
 /* hero style */
 #hero {
   position: relative;
-  background-image: url(/assets/img/optimus-img-desktop.jpg);
+  background-image: url(assets/img/optimus-img-desktop.jpg);
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
