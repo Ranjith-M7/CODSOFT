@@ -118,7 +118,7 @@ body {
 /* hero style */
 #hero {
   position: relative;
-  background-image: url("/assets/img/optimus-img-desktop.jpg");
+  background-image: url("../img/optimus-img-desktop.jpg");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -151,6 +151,7 @@ body {
 }
 .hero-content .text {
   margin-top: 1rem;
+  margin-right: 8px;
   font-size: var(--font-size-small);
   position: relative;
 }
@@ -304,7 +305,7 @@ footer .container .credits {
     transform: translateX(0px);
   }
   #hero {
-    background-image: url(/assets/img/optimus-img-mobile.jpg);
+    background-image: url("https://i.postimg.cc/0j8g63wT/wallpaperflare-com-wallpaper-7.jpg");
   }
   #hero .container .hero-content {
     position: absolute;
