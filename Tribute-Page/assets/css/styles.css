@@ -12,7 +12,7 @@
   --primary-font: "Bebas Neue", sans-serif;
   --secondary-font: "Overpass", sans-serif;
   --main-font: "Black Ops One", system-ui;
-  --font-size-big: 4rem;
+  --font-size-big: 3rem;
   --font-size-normal: 1.2rem;
   --font-size-small: 1.1rem;
 }
@@ -93,6 +93,7 @@ body {
   font-family: var(--main-font);
   letter-spacing: 2px;
   text-transform: uppercase;
+  font-size: var(--font-size-normal);
 }
 #header .menu .menu-list {
   list-style: none;
@@ -103,6 +104,7 @@ body {
   text-transform: uppercase;
   font-weight: 600;
   transition: all 0.3s;
+  font-size: small;
 }
 .menu-list li a:hover {
   color: var(--primary-color);
@@ -123,7 +125,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 #hero::before {
   content: "";
@@ -138,9 +140,8 @@ body {
 }
 #hero .container .hero-content {
   position: absolute;
-  top: 20%;
+  top: 25%;
   z-index: 2;
-  max-width: 450px;
   color: #fff;
 }
 .hero-content .title {
@@ -151,9 +152,10 @@ body {
 }
 .hero-content .text {
   margin-top: 1rem;
-  margin-right: 8px;
   font-size: var(--font-size-small);
   position: relative;
+  padding-right: 5px;
+  max-width: 600px;
 }
 .hero-content .text::after {
   position: absolute;
@@ -318,12 +320,18 @@ footer .container .credits {
 @media screen and (max-width: 550px) {
   /* VARIABLES */
   :root {
-    --font-size-big: 3rem;
-    --font-size-normal: 1.1rem;
-    --font-size-small: 1rem;
+    --font-size-big: 2.5rem;
+    --font-size-normal: 1rem;
+    --font-size-small: 0.9rem;
   }
   #header .logo .logo-name {
     font-size: var(--font-size-normal);
+  }
+  .hero-content .title {
+    font-size: var(--font-size-big);
+  }
+  #hero .container .hero-content {
+    top: 25%;
   }
   #hero .arrow i {
     display: none;
