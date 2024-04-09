@@ -1,7 +1,6 @@
 const hamburgerMenu = document.querySelector(".hamburger-menu");
 const menuList = document.querySelector(".menu-list");
 const navLinks = document.querySelectorAll(".menu-list a");
-const menu = document.querySelector(".menu");
 
 // Add event listener to show nav menu
 hamburgerMenu.addEventListener("click", () => {
