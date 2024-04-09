@@ -18,7 +18,7 @@ Delve into the iconic world of Optimus Prime with this Tribute Page project, hon
 
 ## Screenshot
 
-![App Screenshot](https://github.com/Ranjith-M7/CODSOFT/assets/126071064/5838d5b8-eb7d-417a-b879-a4a72c358f04)
+![App Screenshot](https://github.com/Ranjith-M7/CODSOFT/assets/126071064/c0824b40-5baa-40c1-9cf6-c8c03ac78fe3)
 
 ## Run Locally
 
