@@ -165,8 +165,8 @@ body {
 }
 .hero-content .btn {
   margin-top: 3rem;
-  text-transform: uppercase;
   font-weight: bolder;
+  text-transform: uppercase;
 }
 #hero .arrow {
   position: absolute;
