@@ -1,24 +1,24 @@
 
 # Tribute-Page
-A basic Calculator performs simple arithmetic operations.
+Discover and celebrate the remarkable achievements of someone special in this Tribute Page, highlighting their lasting influence and unique qualities.
 
 ## Description
-
+Delve into the iconic world of Optimus Prime with this Tribute Page project, honoring his legendary leadership and heroic journey in the Transformers universe.
 
 ## Tech Stack
 
 **Client:** HTML, CSS, JavaScript
 
 ## Demo
-[Click here ](https://github.com/Ranjith-M7/CODSOFT/assets/126071064/876dda8b-0337-4ce0-98e9-079e5193fa7d) to check out the demo video for a walkthrough of the project.
+[Click here ](https://github.com/Ranjith-M7/CODSOFT/assets/126071064/bdffbc54-a28b-4103-9cc2-982d8b4d3214) to check out the demo video for a walkthrough of the project.
 
 ## Website Link
-[Click here](https://ranjith-m7.github.io/CODSOFT/Calculator/) to visit the website.
+[Click here](https://ranjith-m7.github.io/CODSOFT/Tribute-Page/) to visit the website.
 
 
 ## Screenshot
 
-![App Screenshot](https://github.com/Ranjith-M7/CODSOFT/assets/126071064/dd5a579d-d0be-49b3-88b1-17e0dc771e67)
+![App Screenshot](https://github.com/Ranjith-M7/CODSOFT/assets/126071064/5838d5b8-eb7d-417a-b879-a4a72c358f04)
 
 ## Run Locally
 
