@@ -1,11 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Overpass:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-
-@font-face {
-  font-family: "transformers";
-  src: url("assets/fonts/Transformers.ttf") format("truetype");
-}
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&display=swap");
 
 /* VARIABLES */
 :root {
@@ -15,7 +11,7 @@
   --quotes-color: #d7a46d;
   --primary-font: "Bebas Neue", sans-serif;
   --secondary-font: "Overpass", sans-serif;
-  --main-font: "transformers", sans-serif;
+  --main-font: "Black Ops One", system-ui;
   --font-size-big: 4rem;
   --font-size-normal: 1.2rem;
   --font-size-small: 1.1rem;
@@ -96,6 +92,7 @@ body {
 #header .logo .logo-name {
   font-family: var(--main-font);
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 #header .menu .menu-list {
   list-style: none;
@@ -121,7 +118,7 @@ body {
 /* hero style */
 #hero {
   position: relative;
-  background-image: url(assets/img/optimus-img-desktop.jpg);
+  background-image: url(/assets/img/optimus-img-desktop.jpg);
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -150,6 +147,7 @@ body {
   font-family: var(--main-font);
   font-size: var(--font-size-big);
   color: var(--primary-color);
+  text-transform: uppercase;
 }
 .hero-content .text {
   margin-top: 1rem;
