@@ -2,6 +2,8 @@
 
 This repository contains the projects and tasks completed during my internship at CODSOFT.
 
+# Level 1:
+
 ## Task 1: Landing Page
 
 **Description**: The landing page showcases a wide range of flowers and specializes in all kinds of floral arrangements for various occasions.
@@ -19,3 +21,11 @@ This repository contains the projects and tasks completed during my internship a
 **Description**: A Basic Calculator performs simple arithmetic operations. 
 
 **Live Link**: [click here](https://ranjith-m7.github.io/CODSOFT/Calculator/)
+
+# Level 2:
+
+## Task 1: Tribute-Page
+
+**Description**: Delve into the iconic world of Optimus Prime with this Tribute Page project, honoring his legendary leadership and heroic journey in the Transformers universe.
+
+**Live Link**: [click here](https://ranjith-m7.github.io/CODSOFT/Tribute-Page/)
