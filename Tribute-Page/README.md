@@ -1,9 +1,9 @@
 
-# Calculator
+# Tribute-Page
 A basic Calculator performs simple arithmetic operations.
 
 ## Description
-The simple Calculator project involves creating a user-friendly digital tool for performing basic arithmetic operations such as addition, subtraction, multiplication, divison, and module, serving as a practical solution for everyday calculation.
+
 
 ## Tech Stack
 
@@ -31,7 +31,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd Calculator
+  cd Tribute-Page
 ```
 
 ## Author
